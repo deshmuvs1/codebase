@@ -1,0 +1,25 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "Test 1.js",
+  "scripts": {
+    "test": "npx playwright test tests/WebAPIpart1.spec.js --headed ",
+    "regression": "npx playwright test",
+    "APITests": "npx playwright test --grep=@API",
+    "Config1": "npx playwright test --config playwright.config1.ts",
+    "Tagname": "npx playwright test --grep=@Web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/microsoft-playwright-testing": "^1.0.0-beta.7",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "allure-playwright": "^3.2.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.3.0"
+  }
+}

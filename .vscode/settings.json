@@ -1,0 +1,23 @@
+{
+    "javascript.suggest.enabled": true ,
+    "javascript.suggest.classMemberSnippets.enabled": true,
+    "javascript.suggestionActions.enabled": true,
+    "typescript.suggest.enabled": true,
+    "typescript.suggest.classMemberSnippets.enabled": true,
+    "typescript.suggestionActions.enabled": true,
+
+    
+        
+        
+        "github.copilot.enable": {
+          "*": false,
+          "plaintext": false,
+          "markdown": false,
+          "scminput": false
+        },
+        "editor.inlineSuggest.suppressSuggestions": true,
+        "editor.inlineSuggest.edits.showCollapsed": true,
+        "diffEditor.experimental.useTrueInlineView": true,
+        "diffEditor.experimental.showMoves": true
+      
+}
