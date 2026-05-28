@@ -42,7 +42,7 @@ This repository contains the test cases for the Gmail compose functionality, spe
 #### Scenario 3: Attempting to send the email with an invalid recipient format (Negative)
 * **Given** the user is logged into their Gmail account
 * **And** the user has clicked the "Compose" button
-* **When** the user enters an improperly formatted email address (e.g., "testuser@.com") in the "To" field
+* **When** the user enters an improperly formatted email address (e.g., "testuser@gmail.com") in the "To" field
 * **And** the user enters "Incubyte" in the "Subject" field
 * **And** the user enters " QA test for Incubyte" in the email body
 * **And** the user clicks the "Send" button
